@@ -16,3 +16,53 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+}
+
+.value {
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2142;
+  background-color: teal;
+  height: 50px;
+  padding-top: 4px;
+}
+
+.label {
+  text-align: center;
+  color: #000000;
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  background-color: lightcyan;
+  height: 50px;
+}
